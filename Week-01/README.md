@@ -1,77 +1,47 @@
 # Week 1 – VLSI & Digital Electronics Fundamentals
 
-## Objective
+## 🎯 Objective
 
 Build a strong foundation in digital electronics and begin RTL design using Verilog HDL.
 
-## Topics Covered
+---
 
-- VLSI fundamentals
-- Binary and decimal number systems
-- Binary arithmetic
-- 1's and 2's complement
-- Boolean algebra
-- Boolean laws
-- De Morgan's theorems
-- Logic gates
-- Truth tables
-- Universal gates
-- Introduction to Verilog HDL
+## 📚 Topics Covered
 
-## Logic Gates Studied
+### 1. VLSI Fundamentals
+- Introduction to VLSI
+- Integrated circuits
+- Digital electronics fundamentals
+- Analog vs digital signals
+- Basic role of transistors in digital circuits
 
-- AND
-- OR
-- NOT
-- NAND
-- NOR
-- XOR
-- XNOR
+### 2. Number Systems
+- Binary number system
+- Decimal to binary conversion
+- Binary to decimal conversion
+- Binary addition
+- Binary subtraction
+- Binary multiplication
+- 1's complement
+- 2's complement
 
-## Universal Gates
+### 3. Boolean Algebra
+- Boolean variables
+- Boolean expressions
+- AND, OR and NOT operations
+- Identity laws
+- Null/Dominance laws
+- Idempotent laws
+- Complement laws
+- Double complement law
+- Commutative laws
+- Associative laws
+- Distributive laws
+- Absorption laws
 
-- NAND
-- NOR
+### 4. De Morgan's Theorems
 
-## Practical Work
+#### First Theorem
 
-Implemented an AND gate using Verilog HDL.
-
-### Boolean Function
-
-Y = A & B
-
-### Truth Table
-
-| A | B | Y |
-|---|---|---|
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
-
-## Tools
-
-- GitHub
-- Verilog HDL
-- Icarus Verilog
-- GTKWave
-- EDA Playground
-
-## Learning Outcome
-
-Completed the fundamentals of digital logic and started translating basic logic gates into Verilog RTL.
-
-## Next Week
-
-Week 2 will focus on combinational logic including:
-
-- Boolean simplification
-- Karnaugh maps
-- Multiplexers
-- Demultiplexers
-- Encoders
-- Decoders
-- Adders
-- Subtractors
-- Verilog implementation and verification
+```text
+(A + B)' = A' · B'
